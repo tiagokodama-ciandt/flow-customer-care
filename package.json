@@ -1,0 +1,25 @@
+{
+  "name": "flow-customer-care",
+  "version": "1.0.0",
+  "description": "evaluate the customer's relationship with support",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "npm t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tiagokodama-ciandt/flow-customer-care.git"
+  },
+  "author": "tiagokodama@ciandt.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tiagokodama-ciandt/flow-customer-care/issues"
+  },
+  "homepage": "https://github.com/tiagokodama-ciandt/flow-customer-care#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7"
+  }
+}
