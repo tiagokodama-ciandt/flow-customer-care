@@ -12,7 +12,11 @@ export async function callFlow(prompt) {
       },
     ],
     max_tokens: 3000,
-    model: "gpt-4o-mini",
+    model: "gpt-4o",
+    temperature: 0.7,
+    top_p: 1,
+    frequency_penalty: 0,
+    presence_penalty: 0,
   });
 
   const config = {
